@@ -6,9 +6,6 @@ Histogram::Histogram(QWidget *parent) :
     ui(new Ui::Histogram)
 {
     ui->setupUi(this);
+
 }
 
-Histogram::~Histogram()
-{
-    delete ui;
-}
